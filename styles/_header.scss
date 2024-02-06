@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--default-padding);
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
+  }
+}
+
+.header__links {
+  display: flex;
+  gap: var(--default-padding);
+  @media (max-width: 600px) {
+    gap: calc(var(--default-padding) / 2);
+  }
+}
+.header__link {
+  color: var(--color-very-dark-blue);
+}
+
+.header__link:hover {
+  color: var(--color-soft-red);
+}

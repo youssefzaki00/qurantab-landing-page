@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  background-color: var(--color-very-dark-blue);
+  padding: var(--default-padding) 0;
+  font-size: 1.4rem;
+  color: var(--color-off-white);
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: calc(var(--default-padding) / 2);
+  }
+}
